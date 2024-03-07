@@ -1,0 +1,7 @@
+/wireguard/*
+!/wireguard/templates/
+
+/adguard/
+
+/peers_conf/
+/peer_list.txt
