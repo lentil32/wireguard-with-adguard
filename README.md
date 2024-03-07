@@ -5,8 +5,9 @@
 ## Prerequisites
 - Any OS (tested on Ubuntu 22.04 only)
 Docker and Docker Compose is required
-- [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
-- [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04)
+- Installed:
+  - [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+  - [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04)
 - 51820/UDP port should be open in public. Recommend to search with keyword `Port forwarding`.
 
 ## Getting Started
@@ -14,14 +15,14 @@ Docker and Docker Compose is required
 1. Meet all the requirements from `Prerequisites` section.
 
 2. Run docker container:
-```console
+```
 git clone https://github.com/lentil32/wireguard-with-adguard
 cd wireguard-with-adguard
 sudo docker compose up -d
 ```
 
 3. Go to folder and copy the content of config file (e.g. `peer1.conf`):
-```console
+```
 cd wireguard/peer1
 cat peer1.conf
 ```
